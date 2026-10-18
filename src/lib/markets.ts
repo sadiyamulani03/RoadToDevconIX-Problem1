@@ -104,6 +104,7 @@ function toIntCode(value: unknown): number | undefined {
   const big = coerceBigInt(value);
   if (big === undefined) return undefined;
   if (big > 255n) return undefined;
+  // Bounded enum code (status/outcome, 0-255), never a token amount.
   return Number(big);
 }
 

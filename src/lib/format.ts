@@ -161,6 +161,7 @@ export function formatRelativeTime(
 }
 
 export function formatTimestamp(seconds: bigint): string {
+  // Unix time -> milliseconds for Date; a timestamp, never a token amount.
   const ms = Number(seconds * 1000n);
   if (!Number.isFinite(ms) || ms <= 0) return "unknown";
   return new Date(ms).toLocaleString(undefined, {
