@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Chai cup">
+  <rect width="64" height="64" rx="14" fill="#2a1a12"/>
+  <path d="M18 22h24v14a10 10 0 0 1-10 10h-4a10 10 0 0 1-10-10V22z" fill="#f6e7d3"/>
+  <path d="M42 25h4a6 6 0 0 1 0 12h-4" fill="none" stroke="#f6e7d3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M24 14c0 3-3 3-3 6M32 13c0 3-3 3-3 6M40 14c0 3-3 3-3 6" fill="none" stroke="#d97706" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="30" cy="50" rx="16" ry="3.5" fill="#d97706" opacity="0.55"/>
+</svg>
